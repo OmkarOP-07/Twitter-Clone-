@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+        .div2::-webkit-scrollbar{
+        display: none;
+      }
+     
+      </style>
+  </head>
+  <body class="bg-black text-white">
+    <div class="container mx-auto flex">
+      <div class="div1 ml-0 fixed border-opacity-50 w-[6%] m-3">
+        <div class="fixed logo ml-3 mt-1">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class=" spt-4 m-auto invert w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g> <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+        </div>
+        <div class="mt-8 sidebar-icons flex flex-col justify-center">
+          <ul class="flex flex-col space-y-3 w-1/6 justify-center pl-[10px] pt-[20px] pr-3">
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">home</span></li>
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">search</span></li>
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">notifications</span></li>
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">mail</span></li>
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">favorite</span></li>
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">person</span></li>
+            <li> <span class="text-[32px]  material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">more_horiz</span></li>
+            <li> <span class="text-[32px] material-icons hover:bg-white hover:bg-opacity-10 hover:rounded-full hover:bprder-none p-1 cursor-pointer">add</span></li>
+            <div class="Accounts ml-[1px] rounded-[50%] bg-gray-700 w-10 h-10 object-fill"><img src="profile.png" alt="" class="rounded-[50%]"></div>
+          </ul>
+        </div>
+      </div>
+      <!-- posts section -->
+      <div class="div2 flex ml-[4.5rem] w-full border border-opacity-20 border-x-white border-y-black justify-center h-screen overflow-y-auto">
+        <div class="fixed flex w-full md:w-auto ">
+          <div class="bg-black foryou px-4 py-4 md: flex-1 border-b-2 border-white border-opacity-10 border-r-2 h-14 text-center   font-bold text-white text-opacity-70 z-30 flex items-center justify-center w-[29.5rem]">
+            For you
+          </div>
+          <div class="bg-black following px-4 py-4 flex-1 border-b-2 border-white border-opacity-10 h-14 text-center font-bold  text-white text-opacity-70 flex items-center justify-center">
+            Following
+          </div>
+        </div>
+        <div class="upperdiv w-full mt-14 pl-3 pt-3  border-white border-opacity-15 border-b-2 h-32 ">
+          <div class="flex">
+            <img src="profile.png" alt="" class="w-10 rounded-[50%]">
+            <div class="text-[1.4rem] ml-3 pt-1 text-white text-opacity-60 ">What is happening?! </div>
+          </div>
+          <div class="iconslist flex justify-between">
+            <ul class="pt-6 pl-14 flex gap-5">
+              <li class="inline-block w-5  "><img width="64" height="64" src="https://img.icons8.com/wired/64/22C3E6/gallery.png" alt="gallery"/></li>
+              <li class="inline-block w-5  "><img width="50" height="50" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/50/22C3E6/external-GIF-file-tanah-basah-basic-outline-tanah-basah.png" alt="external-GIF-file-tanah-basah-basic-outline-tanah-basah"/></li>
+              <li class="inline-block w-5  "><img width="60" height="60" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/22C3E6/external-poll-infographic-elements-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" alt="external-poll-infographic-elements-vitaliy-gorbachev-lineal-vitaly-gorbachev"/></li>
+              
+              <li class="inline-block w-5  "><img width="50" height="50" src="https://img.icons8.com/fluency-systems-regular/50/22C3E6/happy.png" alt="happy"/></li>
+              <li class="inline-block w-5  "><img width="64" height="64" src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/22C3E6/external-calender-time-and-date-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png" alt="external-calender-time-and-date-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto"/></li>
+              <li class="inline-block w-5  "><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/22C3E6/marker.png" alt="marker"/></li>
+            </ul>
+            <div class="post w-24 bg-blue-400 rounded-3xl p-2 text-center font-bold mt-5 mr-4" >Post</div>
+          </div>
+
+          <div class="post1 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="profile.png" alt="" class="w-10 rounded-[50%] mr-2 ">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Omkar Potdar</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @OmkarOP_07</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                  King for a Reason ❤
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <!-- <div class="postImg p-3 ml-10  bg-contain bg-no-repeat bg-center w-[32rem] h-[20rem] border rounded-2xl border-white border-opacity-20 mt-3 " style="background-image: url('Virat.png');"></div> -->
+           <img src="Virat.png" alt="" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3 ">
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post2 border-b-2 border-white border-opacity-15 h-auto">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="savitri.png" alt="" class="w-10 h-10 rounded-[50%] mr-2 object-cover ">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Somashankar Umarani</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @Somu_45</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                  45 is Love 😍
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <!-- <div class="postImgHitman p-3 ml-10  bg-transparent bg-contain bg-no-repeat bg-center w-[32rem] h-[20rem] border rounded-2xl border-white border-opacity-20 mt-3 " style="background-image: url('ropost.jpg');"></div> -->
+            <img src="ropost.jpg" alt="" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3  ">
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post3 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="viraj.jpg" alt="" class="w-10 h-10 object-cover rounded-[50%] mr-2">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Viraj Khyad</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @Viraj_khyad_18</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                   Me and my Homie👬
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+            </div>
+            
+<img src="lingupost.jpg" alt="" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3 ">
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post4 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="vaibhav.png" alt="" class="w-10 h-10 object-cover rounded-[50%] mr-2">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Vaibhav Patil</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @Vaibhav_Patil_07</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                 Gand phate to phate par navabi na hate 😂
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <img src="Andharat.jpg" alt="" class="p-0 ml-10 w-[90%] h-auto aspect-square object-contain border rounded-2xl border-white border-opacity-20 mt-3 ">
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post5 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="Virat.png" alt="" class="w-10 h-10 object-cover rounded-[50%] mr-2">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Virat Kohli</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @iamVkohli</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                  Massive success for the team ❤ 
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <img src="vpost.jpeg" alt="" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3 ">
+
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post6 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="oa.png" alt="" class="w-10  h-10 object-cover rounded-[50%] mr-2">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Onkar Agarkhed</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @OAgarkhed</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                  Mera Putra👦
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <img src="oapost.jpg" alt="" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3 ">
+
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post7 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="xavier.png" alt="" class="w-10  h-10 object-cover  rounded-[50%] mr-2">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">xavier</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @xavierunclelite</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                  Pakistan’s campaign in Champions Trophy’25:
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <img src="xavierpost.jpeg" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3 " alt="">
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="post8 border-b-2 border-white border-opacity-15 h-auto ">
+            <div class="postupper mt-7">
+              <div class="profile flex">
+                <div class="img">
+                  <img src="pratibhaprofile.png" alt="" class="w-10 h-10 object-cover rounded-[50%] mr-2">
+                </div>
+                <div class="userinfo">
+                 <div class="username flex">
+                  <div class="username font-bold  m-0 p-0 block">Pratibha Ranta</div> 
+                  <div class="description text-[0.8rem]  pt-[2px] text-gray-500  m-0 p-0 block">. @Pratibha_Ranta</div>
+                 </div>
+                 <div class="desc m-0 p-0 block text-[0.9rem]">
+                  Chotu has found a new home🐾♥️ <br>My friends rescued this little guy 3 weeks ago and he just got adopted! <br> We’re all also a little sad to see him go but my heart is so full that he found a forever home!
+                 </div>
+                </div>
+                <i class="fa-solid fa-badge-check"></i>
+              </div>
+              
+            </div>
+            <img src="pratibhapost.png" class="p-0 ml-10 w-[90%] h-auto object-cover border rounded-2xl border-white border-opacity-20 mt-3 " alt="">
+           
+            <div class="flex justify-between pt-3">
+              <ul class="responseOfPost pt-6 ml-5 flex gap-x-[6.2rem] ">
+                <li class="flex flex-wrap w-3 ml-8 text-white text-opacity-50 "><span class="material-icons  text-[20px]">comment</span><div class="text-[0.8rem] ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons text-[20px]">favorite</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class="flex flex-wrap w-3 text-white text-opacity-50"><span class="material-icons  text-[20px]">sync</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex flex-wrap w-3"><span class="material-icons text-[20px]">bar_chart</span><div class="text-[0.8rem]  ">12k</div></li>
+                <li class=" text-white text-opacity-50 flex gap-2"> 
+                  <div class="flex flex-wrap w-3 "><span class="material-icons">bookmark</span><div class="text-[0.8rem] ">12k</div></div> 
+                  <div class="flex flex-wrap w-3 ml-2"><span class="material-icons">upload</span><div class="text-[0.8rem] inline-block">12k</div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="div3 w-[63%] bg-black hidden md:block">
+        <div class="searchbar shadow fixed bg-black">
+          <div class="bar w-[19.6rem] flex border rounded-3xl my-1.5 mx-7 h-[42px] border-gray-700">
+            <span class="material-icons text-[23px] mx-[12px] my-[12px]">search</span>
+            <input type="search" placeholder="Search" class="bg-black " >
+          </div>
+        </div>
+
+        <div class="premium mx-7 mb-4 mt-16 border rounded-xl border-gray-800">
+          <h1 class="m-2 font-bold text-xl ">Subscribe to Premium</h1>
+          <div class="text m-3 mr-7">
+            Subscribe to unlock new features and if eligible, receive a share of revenue.
+          </div>
+          <div class="subscribe border-none rounded-3xl w-28 text-center mx-3 my-3 h-9 text-lg p-1 bg-blue-400 font-bold">
+            Subscribe
+          </div>
+        </div>
+
+        <div class="whatshappening mx-7 my-4 border rounded-xl border-gray-800">
+          <h1 class="m-2 font-bold text-xl ">What’s happenings</h1>
+          <div class="grok flex flex-wrap">
+            <img src="grok.png" alt="" class="w-[4.8rem] h-16 mx-3 mb-0 mt-3 rounded-xl object-cover">
+            <div class="text inline-block mt-3 w-52 ">Grok 3 is here. Try it for free.    <div class="text text-[15px] text-gray-500">LIVE</div></div>
+          </div>
+          <div class="hashtags">
+            <div class="div1 mx-3 my-3">
+              <div class="text-[15px] flex justify-between items-center text-gray-500 mb-0">
+                <div class="text-[15px] flex text-gray-500 mb-0">RoyalChallengersBangaluru . Trending </div>
+                <span class="material-icons ">more_horiz</span>
+              </div>
+              <div class="mt-0 inline-block"> #ViratKohli</div>
+              <div class="text-[15px] text-gray-500 ">200.5k posts</div>
+            </div>
+            
+            <div class="div1 mx-3 my-3">
+              <div class="text-[15px] flex justify-between items-center text-gray-500 mb-0">
+                <div class="text-[15px] flex text-gray-500 mb-0">Sports . Trending </div>
+                <span class="material-icons ">more_horiz</span>
+              </div>
+              <div class="mt-0 inline-block"> #Ind vs Pak</div>
+              <div class="text-[15px] text-gray-500 ">12.5k posts</div>
+            </div>
+            
+            <div class="div1 mx-3 my-3">
+              <div class="text-[15px] flex justify-between items-center text-gray-500 mb-0">
+                <div class="text-[15px] flex text-gray-500 mb-0">Movies . Trending </div>
+                <span class="material-icons ">more_horiz</span>
+              </div>
+              <div class="mt-0 inline-block"> #Chaava</div>
+              <div class="text-[15px] text-gray-500 ">20.5k posts</div>
+
+            </div>
+            
+            <div class="div1 mx-3 my-3">
+              <div class="text-[15px] flex justify-between items-center text-gray-500 mb-0">
+                <div class="text-[15px] flex text-gray-500 mb-0">Trending in India . Trending </div>
+                <span class="material-icons ">more_horiz</span>
+              </div>
+              <div class="mt-0 inline-block"> #KUMBHMELA 2k25</div>
+              <div class="text-[15px] text-gray-500 ">8.9k posts</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="premium mx-7 mb-4  border rounded-xl border-gray-800">
+          <h1 class="m-2 font-bold text-xl ">Who to follow</h1>
+
+         <div class="user ml-4 flex my-2">
+          <div class="div1"><div class="img">
+            <img src="profile.png" alt="" class="w-10 h-10 rounded-[50%] object-cover mr-2">
+          </div></div>
+          <div class="div2 flex flex-wrap w-[55%]">
+            <div class="name inline-block w-[100%]">Omkar Potdar</div>
+            <div class="Username inline-block text-xs text-white text-opacity-35">@OmkarOP_07</div>
+          </div>
+          <div class="div3">
+            <div class="followbtn bg-white text-black rounded-3xl px-4 font-bold py-[0.3rem]">
+              follow
+            </div>
+          </div>
+         </div>
+
+         <div class="user ml-4 flex my-2">
+          <div class="div1"><div class="img">
+            <img src="vaibhav.png" alt="" class="w-10 h-10 rounded-[50%] object-cover mr-2">
+          </div></div>
+          <div class="div2 flex flex-wrap w-[55%]">
+            <div class="name inline-block w-[100%]">Vaibhav Patil</div>
+            <div class="Username inline-block text-xs text-white text-opacity-35">@Vaibhav_Patil_07</div>
+          </div>
+          <div class="div3">
+            <div class="followbtn bg-white text-black rounded-3xl px-4 font-bold py-[0.3rem]">
+              follow
+            </div>
+          </div>
+         </div>
+
+         <div class="user ml-4 flex my-2">
+          <div class="div1"><div class="img">
+            <img src="savitri.png" alt="" class="w-10 h-10 rounded-[50%] object-cover mr-2 ">
+          </div></div>
+          <div class="div2 flex flex-wrap w-[55%]">
+            <div class="name inline-block w-[100%]">Somashankar Umarani</div>
+            <div class="Username inline-block text-xs text-white text-opacity-35">@Somu_45</div>
+          </div>
+          <div class="div3">
+            <div class="followbtn bg-white text-black rounded-3xl px-4 font-bold py-[0.3rem]">
+              follow
+            </div>
+          </div>
+         </div>
+
+         <div class="user ml-4 flex my-2">
+          <div class="div1"><div class="img">
+            <img src="viraj.jpg" alt="" class="w-10 h-10 rounded-[50%] object-cover mr-2">
+          </div></div>
+          <div class="div2 flex flex-wrap w-[55%]">
+            <div class="name inline-block w-[100%]">Viraj Khyad</div>
+            <div class="Username inline-block text-xs text-white text-opacity-35">@Viraj_khyad_18</div>
+          </div>
+          <div class="div3">
+            <div class="followbtn bg-white text-black rounded-3xl px-4 font-bold py-[0.3rem]">
+              follow
+            </div>
+          </div>
+         </div> 
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <script>
+     const div1 = document.querySelector('.foryou');
+    const div2 = document.querySelector('.following')
+    const searchbar = document.querySelector('.searchbar')
+// Add a click event listener
+function resetStyles(element){
+     element.style.color = "gray"
+    //  element.style.borderBottomColor = "gray"
+    element.style.borderBottomColor = "rgba(50, 50, 50, 1)";
+}
+div1.addEventListener('click', function() {
+  // Change the text color to blue (or any color you want)
+  this.style.color = "white";
+  this.style.borderBottomColor = "blue"
+  resetStyles(div2)
+});
+div2.addEventListener('click', function() {
+  // Change the text color to blue (or any color you want)
+  this.style.color = "white";
+  this.style.borderBottomColor = "blue"
+  resetStyles(div1)
+});
+
+searchbar.addEventListener('click',()=>{
+  this.style.border = "2px solid black"
+})
+  </script>
+</html>
